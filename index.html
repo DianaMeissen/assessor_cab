@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="index.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assessor's cabinet</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;amp;subset=cyrillic" rel="stylesheet">
+</head>
+
+<body>
+  <div class="assessor__main__container">
+    <div class="assessor__main__wraper">
+      <h1>Оценка инновационного потенциала</h1>
+      <div class="assessor__filter__container">
+        <div>
+          <div class="filter__heading">Дата оценивания</div>
+          <select class="select__style">
+            <option selected disabled>Выберите</option>
+          </select>
+        </div>
+        <div>
+          <div class="filter__heading">Группа</div>
+          <select class="select__style">
+            <option selected disabled>Выберите</option>
+          </select>
+        </div>
+        <div>
+          <div class="filter__heading">Участник</div>
+          <select class="select__style">
+            <option selected disabled>Выберите</option>
+          </select>
+        </div>
+        <div>
+          <div class="filter__heading">Тип упражнения</div>
+          <select class="select__style">
+            <option selected disabled>Выберите</option>
+          </select>
+        </div>
+        <div>
+          <div class="filter__heading">Компетенция</div>
+          <select class="select__style">
+            <option selected disabled>Выберите</option>
+          </select>
+        </div>
+        <div>
+          <div class="filter__heading">Буллиты</div>
+          <select class="select__style">
+            <option selected disabled>Выберите</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="assessor__chart__container">
+        <h2>Системное мышление. Анализ ситуации</h2>
+        <div style="display: flex">
+          <div class="chart__holder__container">
+            <div class="results__container">
+              <div class="result__item holder m-right">
+                <div class="test_result__heading txt__purple">
+                  Результат теста
+                </div>
+                <div class="test_result__result txt__grey">
+                  - / -
+                </div>
+              </div>
+              <div class="holder m-right txt__purple">
+                <div class="test_result__heading">
+                  Изучение материала
+                </div>
+                <div class="test_result__result">
+                  - %
+                </div>
+              </div>
+            </div>
+            <div class="chart__holder">
+              <canvas id="assessor__chart" width="850" height="450"></canvas>
+              <!-- Выберите группу и участника -->
+            </div>
+          </div>
+          <div class="result__holder m-left">
+            <div class="holder txt__purple">
+              <div class="test_result__heading">
+                Полнота ответа
+              </div>
+              <div class="test_result__result">
+                - %
+              </div>
+            </div>
+            <div style="margin: 30px 0 25px;">Ответ участника:</div>
+            <div style="margin-bottom: 30px;">
+              <div class="filter__heading">Поля формуляра</div>
+              <select class="select__style">
+                <option selected disabled>Выберите</option>
+              </select>
+            </div>
+            <hr color="#DFE0EB" width="100%" size="1">
+            <div style="line-height: 24px;margin-top: 20px;">
+              Some chart text:<br>
+              1. Some text <br>
+              2. Some text <br>
+              3. Some text <br>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="assessor__rating__container">
+        <h3>Оценка ассесора:</h3>
+        <div class="main__rating__container">
+          <div class="half_of_the_screen" style="margin-right: 15px;">
+            <div class="filter__heading">Описание поведения</div>
+            <select class="select__style footer__select">
+              <option selected disabled>Выберите</option>
+            </select>
+          </div>
+          <div class="half_of_the_screen" style="margin-left: 15px;">
+            <div class="filter__heading">Оценка</div>
+            <select class="select__style footer__select">
+              <option selected disabled>Выберите</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+  <script src="./assessor.js"></script>
+</body>
+
+</html>

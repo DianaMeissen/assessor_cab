@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.assessor__main__container {
+  width: 100vw;
+  height: 100%;
+  background-color: #F7F8FC;
+  padding: 20px 35px 200px;
+  position: relative;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.assessor__main__wraper {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.assessor__main__wraper > h1 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+}
+
+.assessor__filter__container, 
+.main__rating__container {
+  position: relative;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.chart__holder__container {
+  width: 70%;
+  position: relative;
+  padding: 70px 10px 0 0;
+  border-right: 1px solid #DFE0EB;
+}
+
+.result__holder {
+  width: 30%;
+  font-family: Roboto;
+}
+
+.filter__heading {
+  color: rgba(159, 162, 180, 1);
+  font-size: 14px;
+  font-family: Roboto;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.assessor__chart__container, 
+.assessor__rating__container {
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px 25px;
+  margin-top: 20px;
+  border: 1px solid rgba(223, 224, 235, 1);
+}
+
+.assessor__rating__container {
+  padding: 20px 30px 45px;
+}
+
+.assessor__chart__container > h2, 
+.assessor__rating__container > h3 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  font-family: Roboto;
+}
+
+.main__rating__container {
+  margin-top: 20px;
+}
+
+.holder {
+  border: 1px solid rgba(106, 95, 222, 1);
+  border-radius: 8px;
+  height: 56px;
+  width: 188px;
+  text-align: center;
+  font-family: Roboto;
+  box-shadow: 0 0 3px 1px #b2b1f3;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.select__style {
+  height: 40px;
+  width: 210px;
+  border: 1px solid rgba(223, 230, 238, 1);
+  border-radius: 4px;
+  padding-left: 10px;
+  color: rgba(159, 162, 180, 1);
+}
+
+.half_of_the_screen {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.footer__select {
+  width: 100%;
+}
+
+.results__container {
+  position: absolute;
+  display: flex;
+  right: 0;
+  top: 0;
+}
+
+.m-right {
+  margin-right: 20px
+}
+
+.m-left {
+  margin-left: 20px
+}
+
+.txt__purple {
+  color: rgba(106, 95, 222, 1);
+}
+
+.txt__grey {
+  color: rgba(159, 162, 180, 1);
+}
+
+.result__item {
+  border: 1px solid rgba(159, 162, 180, 1);  
+  box-shadow: none;
+}
+
+.test_result__result {
+  font-size: 24px;
+  font-weight: 700;
+}
